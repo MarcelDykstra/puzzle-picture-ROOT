@@ -21,13 +21,13 @@ int main()
     gStyle->SetPalette(kRainBow);
     const TArrayI& palette = TColor::GetPalette();
     const auto palSize = palette.GetSize();
-    auto bin_palette_view = std::views::iota(0, nBins)
-                            | std::views::transform([&](int idx) {
-                                  return palette[idx * (palSize / nBins)];
-                              });  // ROOT 6 greatly increased number of colors in palettes.
+    auto binPaletteView = std::views::iota(0, nBins)
+                          | std::views::transform([&](int idx) {
+                                return palette[idx * (palSize / nBins)];
+                            });  // ROOT 6 greatly increased number of colors in palettes.
 
-    std::vector<int> bin_palette(bin_palette_view.begin(), bin_palette_view.end());
-    gStyle->SetPalette(nBins, bin_palette.data(), 1);
+    std::vector<int> binPalette(binPaletteView.begin(), binPaletteView.end());
+    gStyle->SetPalette(nBins, binPalette.data(), 1);
 
     std::vector<double> x = {0, 0, -160, 160, -160,  160,   0,    0, 320, -320, 240,  240, -240, -240};
     std::vector<double> y = {0, 0,  280, 280, -280, -280, 280, -280,   0,    0, 140, -140,  140, -140};
