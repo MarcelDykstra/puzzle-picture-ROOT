@@ -59,3 +59,6 @@ int main()
 
 [![puzzle-picture-ROOT — License](https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge)](LICENSE.md)
 [![ROOT - License](https://img.shields.io/badge/LICENSE-ROOT%20(GNU%20LGPL)-blue?style=for-the-badge)](https://root.cern/about/license/)
+[![FOSDEM 2026](http://img.shields.io/badge/FOSDEM%202026-red?style=for-the-badge)](https://archive.fosdem.org/2026/schedule/event/FE7ULY-foss-in-times-of-war-scarcity-and-ai/)
+[![FOSDEM 2026](http://img.shields.io/badge/FOSDEM%202026-red?style=for-the-badge)](https://archive.fosdem.org/2026/schedule/event/L3BK7S-free-as-in-burned-out/)
+[![Code Quality?](http://img.shields.io/badge/Code%20Quality%3F-red?style=for-the-badge)](https://innovationgraph.github.com/global-metrics/git-pushes)
