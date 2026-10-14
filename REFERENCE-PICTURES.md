@@ -32,7 +32,10 @@
         <td align="center"><img src="./reference-pictures/20.png" style="width: 150px; height: auto;"></td>
     </tr>
     <tr>
-        <td align="center"><img src="./reference-pictures/21.png" style="width: 250px; height: auto;"></td>
+        <td align="center"><figure><img src="./reference-pictures/21.png" style="width: 250px; height: auto;"><figcaption>OAJ 2026</figcaption></figure></td>
+        <td/>
+        <td align="center"><figure><img src="./reference-pictures/22.png" style="width: 250px; height: auto;"><figcaption>13 oct 2026 — <br/> "Hit Me Babby One More Time…"</figcaption></figure></td>
+        <td align="center"><figure><img src="./reference-pictures/23.png" style="width: 250px; height: auto;"><figcaption>13 oct 2026</figcaption></figure></td>
     </tr>
 </table>
 
